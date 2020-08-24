@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Setup setup = new Setup(3);
+        Setup setup = new Setup(5);
         List<Candidate> candidates = setup.getCandidates();
         List<Hospital> hospitals = setup.getHospitals();
 
